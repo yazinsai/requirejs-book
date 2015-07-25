@@ -9,6 +9,6 @@ requirejs.config({
 });
 
 // Bootstrap your application
-require(['app'], function(app) {
-
+require(['jquery','app'], function($, app) {
+  $('body').append("- Done loading the app");
 });

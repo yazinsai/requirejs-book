@@ -1,3 +1,3 @@
 define(['jquery'], function($) {
-  $('body').css('backgroundColor', 'red');
+  $('body').html("<h1>jquery changed me!</h1>");
 });
